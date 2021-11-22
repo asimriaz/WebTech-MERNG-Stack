@@ -1,0 +1,23 @@
+{
+	"name": "datasheet",
+	"version": "1.0.0",
+	"description": "",
+	"main": "server.js",
+	"scripts": {
+		"start": "nodemon -e vash,js server.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"bootstrap": "^4.6.0",
+		"express": "^4.17.1",
+		"jquery": "^3.6.0",
+		"mongoose": "^5.12.0",
+		"morgan": "^1.10.0",
+		"vash": "^0.13.0"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.7"
+	}
+}

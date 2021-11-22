@@ -1,0 +1,11 @@
+GET http://localhost:3400/api/students/1112108 HTTP/1.1
+
+###
+GET http://localhost:3400/api/courses/all HTTP/1.1
+
+###
+GET http://localhost:3400/api/courses/2 HTTP/1.1
+
+###
+GET http://localhost:3400/api/registrations/1112110 HTTP/1.1
+
