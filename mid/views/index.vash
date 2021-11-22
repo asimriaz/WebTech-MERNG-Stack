@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta>
+    <title>@model.title</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<body style="background-color: #f4f4f4;">
+    <h2 style="color: navy; ">Chase Up</h2>
+    <table style="width: 100%;">
+        <tbody>
+            <tr>
+                <td style="width: 50%;"><input type="text" class="form-control" placeholder="search"></td>
+                <td style="width: 50%; text-align: right;">
+                    <a href="#" id="checkout">
+                        <h2 style="color: green;">Check Out</h2>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td id="msg" style="text-align: center;"></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div id="products" class="content">
+        <div class="product shadow">
+            <a href="#" class="item">
+                <div class="parent">
+                    <img class="pic" src="/images/1000000287831-7-1611848185221.jpg"
+                        alt="Rose Petal Pop-Up Soft &amp; Gentle Black Tissue - 150x2 Ply">
+                </div>
+                <table style="width:100%">
+                    <tbody>
+                        <tr>
+                            <td class="price">PKR 89</td>
+                            <td class="stock">Qty 20</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="des">
+                    Rose Petal Pop-Up Soft &amp; Gentle Black Tissue - 150x2 Ply
+                </div>
+            </a>
+        </div>
+    </div>
+    <div id="bill" class="bill" style="">
+        <table style="width: 540px;">
+            <thead>
+                <tr>
+                    <th>Sno</th>
+                    <th style="width: 70px;">Product</th>
+                    <th style="width: 200px;">Name</th>
+                    <th>Price</th>
+                    <th>Qty</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>
+                        <img src="/images/1000000287831-7-1611848185221.jpg" width="75" style="margin:auto">
+                    </td>
+                    <td style="text-align: left; padding-left: 10px;">
+                        Rose Petal Pop-Up Soft &amp; Gentle Black Tissue - 150x2 Ply
+                    </td>
+                    <td>89</td>
+                    <td>
+                        <input type="number" class="qty txt" value="1">
+                    </td>
+                    <td>89</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr style="border-top: 2px solid #585858;">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>89</td>
+                </tr>
+            </tfoot>
+        </table>
+        <!-- <input type="number" name="" id="" value="1" size="3"> -->
+    </div>
+
+
+</body>
+
+</html>
