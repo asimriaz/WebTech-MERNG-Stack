@@ -1,0 +1,15 @@
+input,
+input:focus {
+    background-color: white;
+}
+.brand-logo{
+    color: #5d5d5d !important;
+    
+    padding: 0 25px !important;
+}
+.black-text li a {
+    color: black;
+}
+h4{
+    padding-bottom: 25px;
+}

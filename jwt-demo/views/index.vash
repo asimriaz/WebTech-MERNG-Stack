@@ -1,0 +1,14 @@
+@html.extend('layout', function(model) {
+    @html.block('content', function(model) {
+
+        <div class="row">
+            <div class="col s4"></div>
+            <div class="col s4 center-align">
+                <h4>@model.title</h4>
+            </div>
+            <div class="col s4"></div>
+        </div>
+        
+
+    })
+})
