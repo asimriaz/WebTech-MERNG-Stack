@@ -1,0 +1,21 @@
+Philip Simmons
+Martin Henderson
+Donald Bailey
+Matthew Moore
+Arthur Bryant
+Douglas Watson
+Todd Hernandez
+Robert Rogers
+Joseph Wood
+Charles Perry
+
+{
+  fullname: 'Donald Bailey',
+  username: 'donald',
+  password: '332'
+}
+{
+  fullname: 'Philip Simmons',
+  username: 'philip',
+  password: '778'
+}

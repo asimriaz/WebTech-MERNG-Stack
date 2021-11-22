@@ -1,0 +1,35 @@
+Ronald Gonzales
+David Martinez
+Earl Richardson
+Peter Taylor
+Brian Parker
+Michael Lee
+Ryan Garcia
+Gary Alexander
+Scott Johnson
+George Long
+
+
+
+{
+  "fullname": "Brian Parker",
+  "username": "brian",
+  "password": "556"
+}
+{
+  "fullname": "George Long",
+  "username": "george",
+  "password": "766"
+}
+
+{
+  "fullname": "Ryan Garcia",
+  "username": "ryan",
+  "password": "999"
+}
+{
+  "fullname": "Gary Alexander",
+  "username": "gray",
+  "password": "778"
+}
+

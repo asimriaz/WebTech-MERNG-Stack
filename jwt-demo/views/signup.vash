@@ -6,7 +6,13 @@
             <div class="col s4">
               <h4>@model.title</h4>
                 <form class="col s12" method="POST">
-
+                    <div style="color: aqua; text-align: center;">@(model.message != null ? model.message : '')</div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="fullname" type="text" name="fullname">
+                            <label >Full Name</label>
+                        </div>
+                    </div>
                     <div class="row">
                         <div class="input-field col s12">
                             <input id="username" type="text" name="username">
@@ -21,7 +27,7 @@
                     </div>
                     <div class="row">
                         <div class="input-field col s12 center-align">
-                            <button class="waves-effect waves-light btn-small white-text" type="submit">Login</button>
+                            <button class="waves-effect waves-light btn-small white-text" type="submit">Sign Up</button>
                         </div>
                     </div>
 
