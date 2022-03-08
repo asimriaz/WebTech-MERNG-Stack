@@ -1,9 +1,11 @@
 #docker run -d --name mongo-db -p 27017:27017 mongo
 
-docker exec -i mongo-db sh -c 'mongoimport -c students -d recapsheet --jsonArray' < JSON/students.json
-docker exec -i mongo-db sh -c 'mongoimport -c grades -d recapsheet --jsonArray' < JSON/grades.json
-docker exec -i mongo-db sh -c 'mongoimport -c heads -d recapsheet --jsonArray' < JSON/heads.json
-docker exec -i mongo-db sh -c 'mongoimport -c heads -d recapsheet --jsonArray' < JSON/marks.json
+
+# docker exec -i mongo-db sh -c 'mongoimport -c students -d recapsheet --jsonArray' < JSON/students.json
+# docker exec -i mongo-db sh -c 'mongoimport -c grades -d recapsheet --jsonArray' < JSON/grades.json
+# docker exec -i mongo-db sh -c 'mongoimport -c heads -d recapsheet --jsonArray' < JSON/heads.json
+# docker exec -i mongo-db sh -c 'mongoimport -c heads -d recapsheet --jsonArray' < JSON/marks.json
 
 
 for collection in $(ls | cut -d'.' -f1); do echo "docker exec -i mongo-db sh -c 'mongoimport -d recapsheet -c ${collection} --jsonArray' < ${collection}.json"; done
+for collection in $(ls | cut -d'.' -f1); do docker exec -i mongo-db sh -c "mongoimport -d recapsheet -c ${collection} --jsonArray" < ${collection}.json; done
